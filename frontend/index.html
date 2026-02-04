@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Digital Queue Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>⏳ Smart Queue Tracker</h1>
+
+    <input id="name" placeholder="Your Name">
+    <select id="priority">
+        <option>Normal</option>
+        <option>Senior</option>
+        <option>Emergency</option>
+    </select>
+
+    <button onclick="join()">Book Slot</button>
+
+    <h3>Live Queue</h3>
+    <ul id="list"></ul>
+
+    <button class="serve" onclick="serve()">Serve Next</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
